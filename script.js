@@ -5,21 +5,21 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- Data for Socket Types and Countries ---
     // Socket images should be in an 'images/' folder.
     const SOCKET_TYPES = {
-        'A': { name: 'Type A', img: 'socket_types_01.jpg', description: 'Two flat parallel pins.' },
-        'B': { name: 'Type B', img: 'socket_types_02.jpg', description: 'Two flat parallel pins with a grounding pin.' },
-        'C': { name: 'Type C', img: 'socket_types_03.jpg', description: 'Two round parallel pins.' },
-        'D': { name: 'Type D', img: 'socket_types_04.jpg', description: 'Three large round pins in a triangular pattern.' },
-        'E': { name: 'Type E', img: 'socket_types_05.jpg', description: 'Two round pins with a hole for the socket\'s male grounding pin.' },
-        'F': { name: 'Type F', img: 'socket_types_06.jpg', description: 'Two round pins with two grounding clips on the side (Schuko).' },
-        'G': { name: 'Type G', img: 'socket_types_07.jpg', description: 'Three rectangular pins in a triangular pattern (British).' },
-        'H': { name: 'Type H', img: 'socket_types_08.jpg', description: 'Three round pins in a Y-shape (Israeli).' },
-        'I': { name: 'Type I', img: 'socket_types_09.jpg', description: 'Three flat pins in a V-shape (Australian/Chinese).' },
-        'J': { name: 'Type J', img: 'socket_types_10.jpg', description: 'Three round pins in a triangle (Swiss).' },
-        'K': { name: 'Type K', h_img: 'socket_types_11.jpg', description: 'Two round pins with a U-shaped grounding pin (Danish).' },
-        'L': { name: 'Type L', img: 'socket_types_12.jpg', description: 'Three round pins in a line (Italian).' },
-        'M': { name: 'Type M', img: 'socket_types_13.jpg', description: 'Three large round pins in a triangular pattern (South African).' },
-        'N': { name: 'Type N', img: 'socket_types_14.jpg', description: 'Two round pins with a grounding pin (Brazilian).' },
-        'O': { name: 'Type O', img: 'socket_types_15.jpg', description: 'Three round pins with a grounding pin (Thai).' },
+        'A': { name: 'Type A', link: "https://github.com/stock-character/socketcheck/tree/main/images", img: 'socket_types_01.jpg', description: 'Two flat parallel pins.' },
+        'B': { name: 'Type B', link: "https://github.com/stock-character/socketcheck/tree/main/images", img: 'socket_types_02.jpg', description: 'Two flat parallel pins with a grounding pin.' },
+        'C': { name: 'Type C', link: "https://github.com/stock-character/socketcheck/tree/main/images", img: 'socket_types_03.jpg', description: 'Two round parallel pins.' },
+        'D': { name: 'Type D', link: "https://github.com/stock-character/socketcheck/tree/main/images", img: 'socket_types_04.jpg', description: 'Three large round pins in a triangular pattern.' },
+        'E': { name: 'Type E', link: "https://github.com/stock-character/socketcheck/tree/main/images", img: 'socket_types_05.jpg', description: 'Two round pins with a hole for the socket\'s male grounding pin.' },
+        'F': { name: 'Type F', link: "https://github.com/stock-character/socketcheck/tree/main/images", img: 'socket_types_06.jpg', description: 'Two round pins with two grounding clips on the side (Schuko).' },
+        'G': { name: 'Type G', link: "https://github.com/stock-character/socketcheck/tree/main/images", img: 'socket_types_07.jpg', description: 'Three rectangular pins in a triangular pattern (British).' },
+        'H': { name: 'Type H', link: "https://github.com/stock-character/socketcheck/tree/main/images", img: 'socket_types_08.jpg', description: 'Three round pins in a Y-shape (Israeli).' },
+        'I': { name: 'Type I', link: "https://github.com/stock-character/socketcheck/tree/main/images", img: 'socket_types_09.jpg', description: 'Three flat pins in a V-shape (Australian/Chinese).' },
+        'J': { name: 'Type J', link: "https://github.com/stock-character/socketcheck/tree/main/images", img: 'socket_types_10.jpg', description: 'Three round pins in a triangle (Swiss).' },
+        'K': { name: 'Type K', link: "https://github.com/stock-character/socketcheck/tree/main/images", h_img: 'socket_types_11.jpg', description: 'Two round pins with a U-shaped grounding pin (Danish).' },
+        'L': { name: 'Type L', link: "https://github.com/stock-character/socketcheck/tree/main/images", img: 'socket_types_12.jpg', description: 'Three round pins in a line (Italian).' },
+        'M': { name: 'Type M', link: "https://github.com/stock-character/socketcheck/tree/main/images", img: 'socket_types_13.jpg', description: 'Three large round pins in a triangular pattern (South African).' },
+        'N': { name: 'Type N', link: "https://github.com/stock-character/socketcheck/tree/main/images", img: 'socket_types_14.jpg', description: 'Two round pins with a grounding pin (Brazilian).' },
+        'O': { name: 'Type O', link: "https://github.com/stock-character/socketcheck/tree/main/images", img: 'socket_types_15.jpg', description: 'Three round pins with a grounding pin (Thai).' },
     };
 
     const COUNTRIES = [
