@@ -62,7 +62,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 return socket ? `
                     <div class="socket-item">
                         <strong>${socket.name} (${type})</strong>: ${socket.description}
-                        <img src="images/${socket.img}" alt="${socket.name} Socket">
+                        <img src="${socket.img}" alt="${socket.name} Socket">
                     </div>
                 ` : `<strong>Unknown Type (${type})</strong>`;
             }).join('');
